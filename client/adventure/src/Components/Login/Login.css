@@ -1,0 +1,52 @@
+.login_container{
+    display: felx;
+    width: 280px;
+    height: 280px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.application{
+    color: lightcoral;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.login_button{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: lightcoral;
+    font-weight: 1000;
+}
+
+.login_button:hover{
+    background-color: antiquewhite;
+}
+
+input{
+    padding: 2px;
+    outline: none;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.login_cancel{
+    position: absolute;
+    top:5px;
+    right: 5px;
+    cursor: pointer;
+}
